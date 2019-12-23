@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4901dbb7-3a5a-4a61-bbef-9fb38a2e81c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter12/src/lambda/IntArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12/src/stream/ArrayListStramTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter12/src/lambda/IntArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/src/stream/IntArrayTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,10 +22,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter12/src/lambda/IntArrayTest.java">
+        <entry file="file://$PROJECT_DIR$/Chapter12/src/stream/IntArrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter12/src/stream/ArrayListStramTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="21" column="80" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#191#199#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,12 +111,14 @@
         <option value="$PROJECT_DIR$/Chapter12/src/lambda/TestStringConcat.java" />
         <option value="$PROJECT_DIR$/Chapter12/src/lambda/TestLambda.java" />
         <option value="$PROJECT_DIR$/Chapter12/src/lambda/IntArrayTest.java" />
+        <option value="$PROJECT_DIR$/Chapter12/src/stream/ArrayListStramTest.java" />
+        <option value="$PROJECT_DIR$/Chapter12/src/stream/IntArrayTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="640" />
-    <option name="height" value="800" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -127,6 +144,13 @@
               <item name="FastCampus_Java" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter12" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FastCampus_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FastCampus_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter12" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -175,13 +199,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IntArrayTest">
-    <configuration name="AnonymousInnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="innerclass.AnonymousInnerClassTest" />
+  <component name="RunManager" selected="Application.ArrayListStramTest">
+    <configuration name="ArrayListStramTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.ArrayListStramTest" />
       <module name="Chapter12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="innerclass.*" />
+          <option name="PATTERN" value="stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +214,11 @@
       </method>
     </configuration>
     <configuration name="IntArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.IntArrayTest" />
+      <option name="MAIN_CLASS_NAME" value="stream.IntArrayTest" />
       <module name="Chapter12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,7 +231,7 @@
       <module name="Chapter12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,7 +244,7 @@
       <module name="Chapter12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,7 +257,7 @@
       <module name="Chapter12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListStramTest" />
         <item itemvalue="Application.IntArrayTest" />
         <item itemvalue="Application.TestLambda" />
         <item itemvalue="Application.TestStringConcat" />
         <item itemvalue="Application.TestMyNumber" />
-        <item itemvalue="Application.AnonymousInnerClassTest" />
       </list>
     </recent_temporary>
   </component>
@@ -269,12 +293,12 @@
       <workItem from="1576856786358" duration="2631000" />
       <workItem from="1576984924374" duration="3201000" />
       <workItem from="1577014920067" duration="6956000" />
-      <workItem from="1577036369647" duration="635000" />
+      <workItem from="1577036369647" duration="3758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42389000" />
+    <option name="totallyTimeSpent" value="45512000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -299,14 +323,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4124294" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41101694" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.31779662" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32909605" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -710,10 +734,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter12/src/lambda/IntArrayTest.java">
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/stream/ArrayListStramTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="21" column="80" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#191#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/stream/IntArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
         </state>
       </provider>
     </entry>
