@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4901dbb7-3a5a-4a61-bbef-9fb38a2e81c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Chapter12/src/stream/ReduceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12/src/stream/ReduceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SideProject/src/TourCustomerTest/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SideProject/src/TourCustomerTest/TourCustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,42 +20,72 @@
     <favorites_list name="FastCampus_Java" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter12/src/stream/IntArrayTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter12/src/stream/ReduceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter12/src/stream/ArrayListStramTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="21" column="80" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#191#199#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/SideProject/src/TourCustomerTest/Customer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/SideProject/src/TourCustomerTest/TourCustomerTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="840">
+                  <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#489#499#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Chapter12/src/stream/ArrayListStramTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#223#231#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Chapter12/src/stream/IntArrayTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Chapter12/src/stream/ReduceTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -124,6 +156,8 @@
         <option value="$PROJECT_DIR$/Chapter12/src/stream/ArrayListStramTest.java" />
         <option value="$PROJECT_DIR$/Chapter12/src/stream/IntArrayTest.java" />
         <option value="$PROJECT_DIR$/Chapter12/src/stream/ReduceTest.java" />
+        <option value="$PROJECT_DIR$/SideProject/src/TourCustomerTest/Customer.java" />
+        <option value="$PROJECT_DIR$/SideProject/src/TourCustomerTest/TourCustomerTest.java" />
       </list>
     </option>
   </component>
@@ -137,6 +171,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -161,13 +196,46 @@
               <item name="FastCampus_Java" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter12" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lambda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FastCampus_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FastCampus_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter12" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="TestLambda.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="FastCampus_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FastCampus_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter12" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FastCampus_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FastCampus_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter12" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="ReduceTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="FastCampus_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FastCampus_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="SideProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FastCampus_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FastCampus_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="SideProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReduceTest">
+  <component name="RunManager" selected="Application.TourCustomerTest">
     <configuration name="ArrayListStramTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.ArrayListStramTest" />
       <module name="Chapter12" />
@@ -263,12 +331,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStringConcat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.TestStringConcat" />
-      <module name="Chapter12" />
+    <configuration name="TourCustomerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TourCustomerTest.TourCustomerTest" />
+      <module name="SideProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.*" />
+          <option name="PATTERN" value="TourCustomerTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,11 +346,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TourCustomerTest" />
         <item itemvalue="Application.ReduceTest" />
         <item itemvalue="Application.ArrayListStramTest" />
         <item itemvalue="Application.IntArrayTest" />
         <item itemvalue="Application.TestLambda" />
-        <item itemvalue="Application.TestStringConcat" />
       </list>
     </recent_temporary>
   </component>
@@ -304,12 +372,13 @@
       <workItem from="1576856786358" duration="2631000" />
       <workItem from="1576984924374" duration="3201000" />
       <workItem from="1577014920067" duration="6956000" />
-      <workItem from="1577036369647" duration="5150000" />
+      <workItem from="1577036369647" duration="9588000" />
+      <workItem from="1577175580184" duration="2730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46904000" />
+    <option name="totallyTimeSpent" value="54072000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -324,7 +393,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49293786" visible="true" weight="0.25686592" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49293786" weight="0.19789983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -703,13 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter12/src/lambda/TestLambda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter12/src/lambda/TestStringConcat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -717,17 +779,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter12/src/lambda/StringConimpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter12/src/lambda/StringConcat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/lambda/StringConimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -745,30 +807,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter12/src/stream/ArrayListStramTest.java">
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/lambda/TestLambda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="21" column="80" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#191#199#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="121">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter12/src/stream/IntArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter12/src/stream/ReduceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        <state relative-caret-position="105">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter12/src/stream/ArrayListStramTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#223#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SideProject/src/TourCustomerTest/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SideProject/src/TourCustomerTest/TourCustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#489#499#0" expanded="true" />
           </folding>
         </state>
       </provider>
