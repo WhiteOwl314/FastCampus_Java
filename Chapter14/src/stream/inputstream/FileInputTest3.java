@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 //Input 테스트
-public class FileInputTest2 {
+public class FileInputTest3 {
     public static void main(String[] args) {
         //바이트 단위로 읽어주는 FileInputStream 변수 칸 생성
         try (FileInputStream fis = new FileInputStream("input.txt")){

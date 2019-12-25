@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4901dbb7-3a5a-4a61-bbef-9fb38a2e81c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter14/Chapter14.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter14/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/inputstream/ConsoleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/inputstream/FileInputTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/inputstream/SystemInTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/inputstream/SystemInTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/inputstream/SystemInTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter14/src/stream/inputstream/FileInputTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter14/src/stream/inputstream/FileInputTest2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/inputstream/FileInputTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="250">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,20 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/io/FileInputStream.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/inputstream/FileInputTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="109" selection-start-line="109" selection-end-line="109" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter14/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            <state relative-caret-position="135">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -82,7 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter11/src/collection/set/HashSetTest.java" />
         <option value="$PROJECT_DIR$/Chapter11/src/collection/set/MemberHashSet.java" />
         <option value="$PROJECT_DIR$/Chapter11/src/collection/set/Member.java" />
         <option value="$PROJECT_DIR$/Chapter11/src/collection/set/hashset/Member.java" />
@@ -133,6 +115,7 @@
         <option value="$PROJECT_DIR$/Chapter14/src/stream/inputstream/ConsoleTest.java" />
         <option value="$PROJECT_DIR$/Chapter14/input.txt" />
         <option value="$PROJECT_DIR$/Chapter14/src/stream/inputstream/FileInputTest.java" />
+        <option value="$PROJECT_DIR$/Chapter14/src/stream/inputstream/FileInputTest2.java" />
       </list>
     </option>
   </component>
@@ -234,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileInputTest">
+  <component name="RunManager" selected="Application.FileInputTest2">
     <configuration name="ConsoleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.inputstream.ConsoleTest" />
       <module name="Chapter14" />
@@ -261,8 +244,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemInTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.inputstream.SystemInTest" />
+    <configuration name="FileInputTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.inputstream.FileInputTest2" />
       <module name="Chapter14" />
       <extension name="coverage">
         <pattern>
@@ -302,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileInputTest2" />
         <item itemvalue="Application.FileInputTest" />
         <item itemvalue="Application.ConsoleTest" />
         <item itemvalue="Application.SystemInTest3" />
         <item itemvalue="Application.SystemInTest2" />
-        <item itemvalue="Application.SystemInTest" />
       </list>
     </recent_temporary>
   </component>
@@ -330,12 +313,12 @@
       <workItem from="1577014920067" duration="6956000" />
       <workItem from="1577036369647" duration="9588000" />
       <workItem from="1577175580184" duration="6258000" />
-      <workItem from="1577243287002" duration="7533000" />
+      <workItem from="1577243287002" duration="7755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65133000" />
+    <option name="totallyTimeSpent" value="65355000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,7 +343,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41101694" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41101694" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
@@ -416,19 +399,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter11/src/collection/set/hashset/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter11/src/collection/set/hashset/MemberHashSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -821,13 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter14/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/io/FileInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -835,13 +798,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter14/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/inputstream/FileInputTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="250">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/inputstream/FileInputTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
