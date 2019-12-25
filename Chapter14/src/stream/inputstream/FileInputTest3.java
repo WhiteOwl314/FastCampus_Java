@@ -7,7 +7,7 @@ import java.io.IOException;
 public class FileInputTest3 {
     public static void main(String[] args) {
         //바이트 단위로 읽어주는 FileInputStream 변수 칸 생성
-        try (FileInputStream fis = new FileInputStream("input.txt")){
+        try (FileInputStream fis = new FileInputStream("input2.txt")){
             //읽어보자
             /* int i = fis.read();
             System.out.println((char)i);
