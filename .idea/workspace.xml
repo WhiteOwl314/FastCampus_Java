@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4901dbb7-3a5a-4a61-bbef-9fb38a2e81c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter13/src/exception/AutoCloseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter13/src/exception/IDFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter13/src/exception/ThrowsException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter13/src/exception/AutoCloseObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13/src/exception/AutoCloseObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chapter13/exception/AutoCloseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chapter13/exception/AutoCloseTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,21 +21,12 @@
     <favorites_list name="FastCampus_Java" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter13/src/exception/ArrayExeptionTest.java">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter13/src/exception/ThrowsException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter13/src/exception/ExceptionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+            <state relative-caret-position="183">
+              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,19 +35,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter13/src/exception/AutoCloseObj.java">
+        <entry file="file://$PROJECT_DIR$/Chapter13/src/exception/IDFormatException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter13/src/exception/AutoCloseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+            <state relative-caret-position="30">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -85,7 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter11/src/jeneric/Plastic.java" />
         <option value="$PROJECT_DIR$/Chapter11/src/jeneric/Powder.java" />
         <option value="$PROJECT_DIR$/Chapter11/src/jeneric/GenericPrinterTest.java" />
         <option value="$PROJECT_DIR$/Chapter11/package.json" />
@@ -136,6 +118,7 @@
         <option value="$PROJECT_DIR$/Chapter13/src/exception/ExceptionTest.java" />
         <option value="$PROJECT_DIR$/Chapter13/src/exception/AutoCloseObj.java" />
         <option value="$PROJECT_DIR$/Chapter13/src/exception/AutoCloseTest.java" />
+        <option value="$PROJECT_DIR$/Chapter13/src/exception/ThrowsException.java" />
       </list>
     </option>
   </component>
@@ -162,6 +145,19 @@
               <item name="FastCampus_Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="FastCampus_Java" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FastCampus_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FastCampus_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter13" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FastCampus_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FastCampus_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter13" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FastCampus_Java" type="b2602c69:ProjectViewProjectNode" />
@@ -220,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AutoCloseTest">
+  <component name="RunManager" selected="Application.ThrowsException">
     <configuration name="ArrayExeptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exception.ArrayExeptionTest" />
       <module name="Chapter13" />
@@ -260,12 +256,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReduceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.ReduceTest" />
-      <module name="Chapter12" />
+    <configuration name="ThrowsException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.ThrowsException" />
+      <module name="Chapter13" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.*" />
+          <option name="PATTERN" value="exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,11 +284,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThrowsException" />
         <item itemvalue="Application.AutoCloseTest" />
         <item itemvalue="Application.ExceptionTest" />
         <item itemvalue="Application.ArrayExeptionTest" />
         <item itemvalue="Application.TourCustomerTest" />
-        <item itemvalue="Application.ReduceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -315,12 +311,13 @@
       <workItem from="1576984924374" duration="3201000" />
       <workItem from="1577014920067" duration="6956000" />
       <workItem from="1577036369647" duration="9588000" />
-      <workItem from="1577175580184" duration="5683000" />
+      <workItem from="1577175580184" duration="6258000" />
+      <workItem from="1577243287002" duration="1836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57025000" />
+    <option name="totallyTimeSpent" value="59436000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -335,7 +332,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49293786" visible="true" weight="0.19789983" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49293786" visible="true" weight="0.20113085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -401,23 +398,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter11/src/collection/StackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding>
-            <element signature="e#123#131#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter11/src/collection/Member.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -801,13 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter13/src/exception/ArrayExeptionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter13/a.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -815,13 +788,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter13/src/exception/ExceptionTest.java">
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/exception/AutoCloseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -832,10 +802,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter13/src/exception/AutoCloseTest.java">
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/exception/ExceptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        <state relative-caret-position="421">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/exception/ArrayExeptionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/exception/IDFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13/src/exception/ThrowsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
