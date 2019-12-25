@@ -1,4 +1,8 @@
 package exception;
 
-public class IDFormatException {
+public class IDFormatException extends Exception{
+
+    public IDFormatException(String message ){
+        super(message);
+    }
 }
