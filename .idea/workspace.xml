@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4901dbb7-3a5a-4a61-bbef-9fb38a2e81c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/decorator/DataStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/decorator/FileCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/reader/FileReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/writer/FileWriterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reader.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/serialization/SerializationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/serialization/SerializationTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter14/src/stream/outputstream/FileOutputTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter14/src/stream/outputstream/FileOutputTest2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,23 +21,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/decorator/FileCopy.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/serialization/SerializationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="480">
+              <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/decorator/DataStreamTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/serialization/SerializationTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="291">
+              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -71,8 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter11/src/collection/set/treeset/Member.java" />
-        <option value="$PROJECT_DIR$/Chapter11/src/collection/set/treeset/MemberTreeSet.java" />
         <option value="$PROJECT_DIR$/Chapter11/src/collection/set/treeset/ComparatorTest.java" />
         <option value="$PROJECT_DIR$/Chapter11/src/collection/hashmap/Member.java" />
         <option value="$PROJECT_DIR$/Chapter11/src/collection/hashmap/MemberHashMap.java" />
@@ -122,6 +117,8 @@
         <option value="$PROJECT_DIR$/Chapter14/src/stream/writer/FileWriterTest.java" />
         <option value="$PROJECT_DIR$/Chapter14/src/stream/decorator/DataStreamTest.java" />
         <option value="$PROJECT_DIR$/Chapter14/src/stream/decorator/FileCopy.java" />
+        <option value="$PROJECT_DIR$/Chapter14/src/stream/serialization/SerializationTest.java" />
+        <option value="$PROJECT_DIR$/Chapter14/src/stream/serialization/SerializationTest2.java" />
       </list>
     </option>
   </component>
@@ -162,6 +159,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="stream" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FastCampus_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FastCampus_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter14" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="serialization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FastCampus_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FastCampus_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter14" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="serialization" type="462c0819:PsiDirectoryNode" />
+              <item name="SerializationTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="FastCampus_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FastCampus_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter14" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="serialization" type="462c0819:PsiDirectoryNode" />
+              <item name="SerializationTest2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -172,7 +195,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter14/src/stream/serialization" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -198,6 +221,7 @@
       <recent name="collection.set" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Chapter14/src/stream/serialization" />
       <recent name="$PROJECT_DIR$/Chapter11/src/collection/treemap" />
       <recent name="$PROJECT_DIR$/Chapter11/src/collection/set/treeset" />
     </key>
@@ -214,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DataStreamTest">
+  <component name="RunManager" selected="Application.SerializationTest">
     <configuration name="DataStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.decorator.DataStreamTest" />
       <module name="Chapter14" />
@@ -234,19 +258,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="stream.decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileOutputTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.outputstream.FileOutputTest2" />
-      <module name="Chapter14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.outputstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,13 +291,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SerializationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.serialization.SerializationTest" />
+      <module name="Chapter14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.serialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SerializationTest" />
         <item itemvalue="Application.DataStreamTest" />
         <item itemvalue="Application.FileCopy" />
         <item itemvalue="Application.FileWriterTest" />
         <item itemvalue="Application.FileReaderTest" />
-        <item itemvalue="Application.FileOutputTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -310,12 +334,12 @@
       <workItem from="1577014920067" duration="6956000" />
       <workItem from="1577036369647" duration="9588000" />
       <workItem from="1577175580184" duration="6258000" />
-      <workItem from="1577243287002" duration="13633000" />
+      <workItem from="1577243287002" duration="15633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71233000" />
+    <option name="totallyTimeSpent" value="73233000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,7 +354,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49293786" visible="true" weight="0.20113085" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49293786" visible="true" weight="0.20113085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -340,14 +364,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39689267" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39689267" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32846716" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32768363" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32768363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -396,30 +420,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter11/src/collection/hashmap/MemberHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter11/src/collection/treemap/MemberTreeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter11/src/collection/treemap/Member.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -783,20 +783,38 @@
     <entry file="file://$PROJECT_DIR$/writer.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/decorator/DataStreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/decorator/FileCopy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="166">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/decorator/DataStreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/serialization/SerializationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/serialization/SerializationTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
         </state>
       </provider>
     </entry>
