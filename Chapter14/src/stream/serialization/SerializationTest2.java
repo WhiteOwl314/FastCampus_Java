@@ -2,12 +2,12 @@ package stream.serialization;
 
 import java.io.*;
 
-class Person implements Externalizable /*read, write 를 구현할 수 있는 인터페이스*/  {
+class Person2 /*implements Externalizable*/ /*read, write 를 구현할 수 있는 인터페이스*/  {
     String name;
     transient String job; //transient  이 변수는 그대로 직렬화 하지 마라
 
     //Constructor
-    public Person(String name, String job){
+    public Person2(String name, String job){
         this.name = name;
         this.job = job;
     }
@@ -16,7 +16,7 @@ class Person implements Externalizable /*read, write 를 구현할 수 있는 �
     public String toString(){
         return name + "," + job;
     }
-
+/*
     @Override
     public void writeExternal(ObjectOutput out) throws IOException {
 
@@ -26,14 +26,15 @@ class Person implements Externalizable /*read, write 를 구현할 수 있는 �
     public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
 
     }
+ */
 }
 
-public class SerializationTest {
+public class SerializationTest2 {
     public static void main(String[] args) {
 
         // Instance 생성
-        Person personLee = new Person("이순신", "엔지니어");
-        Person personKim = new Person("김유신", "선생님");
+        Person2 personLee = new Person2("이순신", "엔지니어");
+        Person2 personKim = new Person2("김유신", "선생님");
 
         //file 에 저장
         try(FileOutputStream fos = new FileOutputStream("serial.dat");
