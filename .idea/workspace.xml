@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4901dbb7-3a5a-4a61-bbef-9fb38a2e81c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/outputstream/FileOutputTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/decorator/DataStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/decorator/FileCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/reader/FileReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/writer/FileWriterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reader.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter14/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter14/src/stream/inputstream/FileInputTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter14/src/stream/inputstream/FileInputTest3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter14/src/stream/outputstream/FileOutputTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter14/src/stream/outputstream/FileOutputTest2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/outputstream/FileOutputTest1.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/decorator/FileCopy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,18 +37,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/inputstream/FileInputTest3.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/decorator/DataStreamTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+            <state relative-caret-position="147">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -74,12 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter11/src/collection/set/MemberHashSetTest.java" />
-        <option value="$PROJECT_DIR$/Chapter11/src/collection/set/hashset/MemberHashSetTest.java" />
-        <option value="$PROJECT_DIR$/Chapter11/src/collection/set/treeset/TreeSetTest.java" />
-        <option value="$PROJECT_DIR$/Chapter11/src/collection/set/treeset/MemberHashSetTest.java" />
-        <option value="$PROJECT_DIR$/Chapter11/src/collection/set/treeset/MemberHashSet.java" />
-        <option value="$PROJECT_DIR$/Chapter11/src/collection/set/treeset/MemberTreeSetTest.java" />
         <option value="$PROJECT_DIR$/Chapter11/src/collection/set/treeset/Member.java" />
         <option value="$PROJECT_DIR$/Chapter11/src/collection/set/treeset/MemberTreeSet.java" />
         <option value="$PROJECT_DIR$/Chapter11/src/collection/set/treeset/ComparatorTest.java" />
@@ -125,6 +116,12 @@
         <option value="$PROJECT_DIR$/Chapter14/input2.txt" />
         <option value="$PROJECT_DIR$/Chapter14/src/stream/outputstream/FileOutputTest1.java" />
         <option value="$PROJECT_DIR$/Chapter14/src/stream/inputstream/FileInputTest3.java" />
+        <option value="$PROJECT_DIR$/Chapter14/src/stream/outputstream/FileOutputTest2.java" />
+        <option value="$PROJECT_DIR$/reader.txt" />
+        <option value="$PROJECT_DIR$/Chapter14/src/stream/reader/FileReaderTest.java" />
+        <option value="$PROJECT_DIR$/Chapter14/src/stream/writer/FileWriterTest.java" />
+        <option value="$PROJECT_DIR$/Chapter14/src/stream/decorator/DataStreamTest.java" />
+        <option value="$PROJECT_DIR$/Chapter14/src/stream/decorator/FileCopy.java" />
       </list>
     </option>
   </component>
@@ -195,6 +192,7 @@
       <recent name="$PROJECT_DIR$/Chapter14/src/stream/inputstream" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stream.outputstream" />
       <recent name="stream.inputstream" />
       <recent name="collection.hashmap" />
       <recent name="collection.set" />
@@ -216,13 +214,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileInputTest3">
-    <configuration name="ConsoleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.inputstream.ConsoleTest" />
+  <component name="RunManager" selected="Application.DataStreamTest">
+    <configuration name="DataStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.decorator.DataStreamTest" />
       <module name="Chapter14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.inputstream.*" />
+          <option name="PATTERN" value="stream.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,12 +228,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileInputTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.inputstream.FileInputTest" />
+    <configuration name="FileCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.decorator.FileCopy" />
       <module name="Chapter14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.inputstream.*" />
+          <option name="PATTERN" value="stream.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,34 +241,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileInputTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.inputstream.FileInputTest2" />
-      <module name="Chapter14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.inputstream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileInputTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.inputstream.FileInputTest3" />
-      <module name="Chapter14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.inputstream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileOutputTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.outputstream.FileOutputTest1" />
+    <configuration name="FileOutputTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.outputstream.FileOutputTest2" />
       <module name="Chapter14" />
       <extension name="coverage">
         <pattern>
@@ -282,13 +254,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileReaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.reader.FileReaderTest" />
+      <module name="Chapter14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.reader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileWriterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.writer.FileWriterTest" />
+      <module name="Chapter14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.writer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileInputTest3" />
-        <item itemvalue="Application.FileOutputTest1" />
-        <item itemvalue="Application.FileInputTest2" />
-        <item itemvalue="Application.FileInputTest" />
-        <item itemvalue="Application.ConsoleTest" />
+        <item itemvalue="Application.DataStreamTest" />
+        <item itemvalue="Application.FileCopy" />
+        <item itemvalue="Application.FileWriterTest" />
+        <item itemvalue="Application.FileReaderTest" />
+        <item itemvalue="Application.FileOutputTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -312,12 +310,12 @@
       <workItem from="1577014920067" duration="6956000" />
       <workItem from="1577036369647" duration="9588000" />
       <workItem from="1577175580184" duration="6258000" />
-      <workItem from="1577243287002" duration="8718000" />
+      <workItem from="1577243287002" duration="13633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66318000" />
+    <option name="totallyTimeSpent" value="71233000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -332,7 +330,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49293786" visible="true" weight="0.20113085" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49293786" visible="true" weight="0.20113085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -342,16 +340,16 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.41101694" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39689267" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.31779662" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32846716" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32909605" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32909605" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32768363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -398,75 +396,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter11/src/collection/set/treeset/ComparatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#197#205#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter11/src/collection/set/treeset/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#1295#1296#0" expanded="true" />
-            <element signature="e#1318#1319#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter11/src/collection/set/treeset/TreeSetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter11/src/collection/set/treeset/MemberTreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter11/src/collection/set/treeset/MemberTreeSetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter11/src/collection/treemap/MemberHashMap.java" />
-    <entry file="file://$PROJECT_DIR$/Chapter11/src/collection/treemap/MemberHashMapTest.java" />
-    <entry file="file://$PROJECT_DIR$/Chapter11/src/collection/hashmap/MemberHashMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter11/src/collection/hashmap/MemberHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -797,8 +726,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/alpha.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/output.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/reader/FileReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/outputstream/FileOutputTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/inputstream/FileInputTest3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/outputstream/FileOutputTest1.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -810,10 +763,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/inputstream/FileInputTest3.java">
+    <entry file="file://$PROJECT_DIR$/reader.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/writer/FileWriterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/writer.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/decorator/DataStreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/decorator/FileCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
