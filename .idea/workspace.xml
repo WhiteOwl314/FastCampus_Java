@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4901dbb7-3a5a-4a61-bbef-9fb38a2e81c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/others/RandomAccessFileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/coffee/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/coffee/CoffeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/coffee/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/coffee/KenyaAmericano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/coffee/Lattee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter14/src/stream/coffee/Mocha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter14/src/stream/serialization/SerializationTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter14/src/stream/serialization/SerializationTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chapter14/stream/serialization/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chapter14/stream/serialization/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chapter14/stream/serialization/SerializationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chapter14/stream/serialization/SerializationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chapter14/stream/others/RandomAccessFileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chapter14/stream/others/RandomAccessFileTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,13 +26,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/others/RandomAccessFileTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/coffee/Coffee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/coffee/KenyaAmericano.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#135#136#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/coffee/Decorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <folding>
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/coffee/Lattee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding>
+                <element signature="e#96#97#0" expanded="true" />
+                <element signature="e#125#126#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/coffee/CoffeeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/coffee/Mocha.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+              <folding>
+                <element signature="e#96#97#0" expanded="true" />
+                <element signature="e#125#126#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,13 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter11/src/collection/hashmap/Member.java" />
-        <option value="$PROJECT_DIR$/Chapter11/src/collection/hashmap/MemberHashMap.java" />
-        <option value="$PROJECT_DIR$/Chapter11/src/collection/hashmap/MemberHashMapTest.java" />
-        <option value="$PROJECT_DIR$/Chapter11/src/collection/treemap/MemberHashMap.java" />
-        <option value="$PROJECT_DIR$/Chapter11/src/collection/treemap/Member.java" />
-        <option value="$PROJECT_DIR$/Chapter11/src/collection/treemap/MemberTreeMap.java" />
-        <option value="$PROJECT_DIR$/Chapter11/src/collection/treemap/MemberTreeMapTest.java" />
         <option value="$USER_HOME$/.ideavimrc" />
         <option value="$PROJECT_DIR$/Chapter12/src/innerclass/InnerTest.java" />
         <option value="$PROJECT_DIR$/SideProject/src/Test/markdown.md" />
@@ -111,6 +165,13 @@
         <option value="$PROJECT_DIR$/Chapter14/src/stream/serialization/SerializationTest.java" />
         <option value="$PROJECT_DIR$/Chapter14/src/stream/serialization/SerializationTest2.java" />
         <option value="$PROJECT_DIR$/Chapter14/src/stream/others/RandomAccessFileTest.java" />
+        <option value="$PROJECT_DIR$/Chapter14/src/stream/coffee/Coffee.java" />
+        <option value="$PROJECT_DIR$/Chapter14/src/stream/coffee/Decorator.java" />
+        <option value="$PROJECT_DIR$/Chapter14/src/stream/coffee/Milk.java" />
+        <option value="$PROJECT_DIR$/Chapter14/src/stream/coffee/Lattee.java" />
+        <option value="$PROJECT_DIR$/Chapter14/src/stream/coffee/KenyaAmericano.java" />
+        <option value="$PROJECT_DIR$/Chapter14/src/stream/coffee/Mocha.java" />
+        <option value="$PROJECT_DIR$/Chapter14/src/stream/coffee/CoffeeTest.java" />
       </list>
     </option>
   </component>
@@ -150,6 +211,14 @@
               <item name="Chapter14" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FastCampus_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FastCampus_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter14" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="coffee" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FastCampus_Java" type="b2602c69:ProjectViewProjectNode" />
@@ -221,7 +290,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RandomAccessFileTest">
+  <component name="RunManager" selected="Application.CoffeeTest">
+    <configuration name="CoffeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.coffee.CoffeeTest" />
+      <module name="Chapter14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.coffee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.decorator.DataStreamTest" />
       <module name="Chapter14" />
@@ -241,19 +323,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="stream.decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileWriterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.writer.FileWriterTest" />
-      <module name="Chapter14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream.writer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -289,11 +358,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoffeeTest" />
         <item itemvalue="Application.RandomAccessFileTest" />
         <item itemvalue="Application.SerializationTest" />
         <item itemvalue="Application.DataStreamTest" />
         <item itemvalue="Application.FileCopy" />
-        <item itemvalue="Application.FileWriterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -317,12 +386,12 @@
       <workItem from="1577014920067" duration="6956000" />
       <workItem from="1577036369647" duration="9588000" />
       <workItem from="1577175580184" duration="6258000" />
-      <workItem from="1577243287002" duration="17027000" />
+      <workItem from="1577243287002" duration="18217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74627000" />
+    <option name="totallyTimeSpent" value="75817000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -403,47 +472,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter11/src/collection/treemap/MemberTreeMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter11/src/collection/hashmap/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter12/src/innerclass/InnerClass.java" />
-    <entry file="file://$USER_HOME$/.ideavimrc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter12/src/innerclass/InnerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SideProject/src/Test/markdown.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter12/src/innerclass/LocalInnerClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -778,11 +806,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/others/RandomAccessFileTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="240">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/coffee/Coffee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/coffee/KenyaAmericano.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/coffee/Decorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/coffee/Lattee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/coffee/Mocha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter14/src/stream/coffee/CoffeeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
